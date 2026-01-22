@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #b439fc;
+    height: 300px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 2px;
+    background-color: #b400ab;
+    padding: 10px;
+    margin: -15px;
+    
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    color: #b400ab;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset:10px;
+    text-decoration-color: #b439fc;
+
+}
+    
+
+p{
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.equipe-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.membro{ 
+    margin: 10px;
+}
+
+.equipe{
+    background-color: #b439fc;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 20px;   
+}
+
+h3{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #b400ab;
+    text-align: center;
+}
+
+.cargo{
+    font-size: 14px;
+    margin-top: 5px;
+    color: #96009b;
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    background-color: #96009b;
+    height: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
