@@ -20,12 +20,12 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
-              <Route path="/user/:id" element={<User />} /> {/* Rota com parâmetro! */}
+              <Route path="/user/:id" element={<User />} /> {/* Rota com parâmetro */}
             </Routes>
           </Suspense>
         </div>
         
-        <footer style={{ textAlign: 'center', padding: '10px', background: '#eee' }}>
+        <footer style={{ textAlign: 'center', padding: '10px', background: '#98a6beff' }}>
           <p>© 2026 - Projeto do Felipe Nascimento</p>
         </footer>
       </main>
